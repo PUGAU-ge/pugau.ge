@@ -1,5 +1,4 @@
 baseURL = 'https://pugau.ge/'
-locale = 'en-us'
 title = 'Professional Union of Georgian Architects and Urbanists'
 
 defaultContentLanguage = "ka"
@@ -22,6 +21,7 @@ defaultContentLanguageInSubdir = false
         label = "English"
         weight = 2
         title = "PUGAU - Professional Union of Georgian Architects and Urbanists"
+        locale = 'en-us'
     [languages.en.params]
           logoText = "Professional Union of Georgian Architects and Urbanists"
 
@@ -51,9 +51,10 @@ defaultContentLanguageInSubdir = false
             weight = 6
 
   [languages.ka]
-    label = "ქართული"
-    weight = 1
-    title = "PUGAU - საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
+        label = "ქართული"
+        weight = 1
+        title = "PUGAU - საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
+        locale = 'ka'
 
     [languages.ka.params]
           logoText = "საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
