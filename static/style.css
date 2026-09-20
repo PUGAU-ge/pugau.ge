@@ -113,19 +113,19 @@ ul {
 body {
         max-width: 600px;
         margin: auto;
-        padding-block: 5rem;
-        padding-inline: 1rem;
+        padding: 5rem 1rem;
 
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 5rem;
 }
 
 header {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
 }
 
 a {
@@ -178,7 +178,6 @@ a {
 }
 
 .body-wrapper {
-        padding-bottom: 4rem;
         display: flex;
         flex-direction: column;
         gap: 4rem;
@@ -208,6 +207,7 @@ h1, h2 {
         gap: 1.25em;
 }
 
+
 /* Skip link for accessibility */
 .skip-link {
   position: absolute;
@@ -229,10 +229,15 @@ h1, h2 {
 }
 
 @media (max-width: 600px) {
+
+        body {
+                padding-block: 2rem;
+        }
+
         .main-nav {
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 2rem;
+                gap: 3rem;
         }
 
         .main-nav-ul {
