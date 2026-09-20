@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>PUGAU - Professional Union of Georgian Architects and Urbanists</title>
+	<link>http://localhost:1313/en/tags/</link>
+	<description>Recent content in Tags on PUGAU - Professional Union of Georgian Architects and Urbanists</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en</language>
+	<managingEditor>pugaugeo@gmail.com (PUGAU)</managingEditor>
+	<webMaster>pugaugeo@gmail.com (PUGAU)</webMaster>
+    
+        <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	</channel>
+</rss>

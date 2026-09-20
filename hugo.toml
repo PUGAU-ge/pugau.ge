@@ -1,0 +1,82 @@
+baseURL = 'https://pugau.ge/'
+locale = 'en-us'
+title = 'Professional Union of Georgian Architects and Urbanists'
+
+defaultContentLanguage = "ka"
+defaultContentLanguageInSubdir = false
+
+[params]
+  [params.author]
+    email = "pugaugeo@gmail.com"
+    name = "PUGAU"
+
+[outputs]
+  home = ['html']
+
+[languages]
+  [languages.en]
+        label = "English"
+        weight = 2
+        title = "PUGAU - Professional Union of Georgian Architects and Urbanists"
+    [languages.en.params]
+          logoText = "Professional Union of Georgian Architects and Urbanists"
+
+          [[languages.en.menus.main]]
+            name = "Manifesto"
+            pageref = "/"
+            weight = 2
+#          [[languages.en.menus.main]]
+#            name = "CoC"
+#            pageref = "/coc"
+#            weight = 3
+#          [[languages.en.menus.main]]
+#            name = "FAQ"
+#            pageref = "/faq"
+#            weight = 3
+#          [[languages.en.menus.main]]
+#            name = "Articles"
+#            pageref = "/articles/"
+#            weight = 4
+          [[languages.en.menus.main]]
+            name = "Contact"
+            url = "mailto:pugaugeo@gmail.com"
+            weight = 5
+          [[languages.en.menus.main]]
+            name = "Join Us"
+            url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/alreadyresponded"
+            weight = 6
+
+  [languages.ka]
+    label = "ქართული"
+    weight = 1
+    title = "PUGAU - საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
+
+    [languages.ka.params]
+          logoText = "საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
+
+          [[languages.ka.menus.main]]
+            name = "მანიფესტი"
+            pageref = "/"
+            weight = 2
+#          [[languages.ka.menus.main]]
+#            name = "წესდება"
+#            pageref = "/coc"
+#            weight = 3
+#          [[languages.ka.menus.main]]
+#            name = "FAQ"
+#            pageref = "/faq"
+#            weight = 3
+#          [[languages.ka.menus.main]]
+#            name = "სტატიები"
+#            pageref = "/articles/"
+#            weight = 4
+          [[languages.ka.menus.main]]
+            name = "კონტაქტი"
+            url = "mailto:pugaugeo@gmail.com"
+            weight = 5
+          [[languages.ka.menus.main]]
+            name = "შემოგვიერთდი"
+            url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/alreadyresponded"
+            weight = 6
+
+

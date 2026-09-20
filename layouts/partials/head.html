@@ -1,0 +1,8 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>{{ .Site.Title }}</title>
+<link href="/style.css" rel="stylesheet" />
+{{ with .OutputFormats.Get "rss" }}
+{{ printf `
+<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
