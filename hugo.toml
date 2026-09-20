@@ -5,6 +5,10 @@ title = 'Professional Union of Georgian Architects and Urbanists'
 defaultContentLanguage = "ka"
 defaultContentLanguageInSubdir = false
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   [params.author]
     email = "pugaugeo@gmail.com"
