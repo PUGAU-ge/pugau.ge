@@ -178,6 +178,7 @@ a {
 }
 
 .body-wrapper {
+        padding-bottom: 4rem;
         display: flex;
         flex-direction: column;
         gap: 4rem;
