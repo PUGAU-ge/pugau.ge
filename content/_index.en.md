@@ -4,19 +4,12 @@ title = 'Manifesto'
 author = 'PUGAU'
 +++
 
-We, Georgian architects, urbanists, and specialists in related fields are forming a trade union.
+We, Georgian architects, urbanists, and specialists in related fields are founding a professional union.
 
-As members of the union, we are collectively building professional solidarity
-    and an environment where each worker's voice is heard, labor rights are
-    upheld, and no one stands alone against injustice.
+Members of the union are collectively building a professional network and an environment bonded by solidarity, where every worker's voice is valued, labor rights are upheld, and no one stands alone against injustice.
 
-We are constantly monitoring and responding to challenges facing our
-    profession.
+We are continuously observing, identifying, and responding to challenges facing our profession.
 
-Our mission is to create a work environment where employment is stable,
-    working hours are clearly defined, overtime and internships are paid,
-    vacation days are guaranteed, work safety is protected, health insurance
-    is provided, salaries grow in accordance with experience, and the
-    workspace is free from all forms of discrimination.
+Our aim is to create a work environment where employment is stable, working hours are clearly defined, overtime and internships are paid, vacation days are guaranteed, work safety is protected, health insurance is provided, salaries increase with experience, and the workplace is free from all forms of discrimination.
 
-All this can be achieved only through organized collective action.
+All this can only be achieved through organized, collective action.
