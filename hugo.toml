@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = false
             weight = 5
           [[languages.en.menus.main]]
             name = "Join Us"
-            url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/alreadyresponded"
+            url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/viewform"
             weight = 6
 
   [languages.ka]
@@ -83,7 +83,7 @@ defaultContentLanguageInSubdir = false
             weight = 5
           [[languages.ka.menus.main]]
             name = "შემოგვიერთდი"
-            url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/alreadyresponded"
+            url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/viewform"
             weight = 6
 
 
