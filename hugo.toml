@@ -24,6 +24,7 @@ defaultContentLanguageInSubdir = false
         locale = 'en-us'
     [languages.en.params]
           logoText = "Professional Union of Georgian Architects and Urbanists"
+          description = 'Professional union of Georgian architects and urbanists.'
 
           [[languages.en.menus.main]]
             name = "Manifesto"
@@ -58,6 +59,7 @@ defaultContentLanguageInSubdir = false
 
     [languages.ka.params]
           logoText = "საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
+          description = 'საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი.'
 
           [[languages.ka.menus.main]]
             name = "მანიფესტი"
