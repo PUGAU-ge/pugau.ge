@@ -12,7 +12,11 @@
 {{ end }}
 {{ end }}
 
-<link href="/style.css" rel="stylesheet" />
+{{ with resources.Get "css/style.css" }}
+  {{ $css := . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+{{ end }}
+
 {{ with .OutputFormats.Get "rss" }}
 {{ printf `
 <link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}

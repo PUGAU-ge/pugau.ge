@@ -88,19 +88,19 @@ ul {
 
 @font-face {
         font-family: 'Courier Prime';
-        src: url('fonts/CourierPrime-Regular.ttf');
+        src: url('/fonts/CourierPrime-Regular.ttf');
         font-weight: normal;
 }
 
 @font-face {
         font-family: 'Courier Prime';
-        src: url('fonts/CourierPrime-Bold.ttf');
+        src: url('/fonts/CourierPrime-Bold.ttf');
         font-weight: bold;
 }
 
 @font-face {
         font-family: 'Geo Courier';
-        src: url('fonts/geo_courier.ttf');
+        src: url('/fonts/geo_courier.ttf');
         font-weight: normal;
 }
 
