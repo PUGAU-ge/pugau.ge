@@ -2,7 +2,7 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ with .Pages }}
-<ul class="page-list">
+<ul class="page-list" role="list">
   {{ range . }}
   <li>
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>

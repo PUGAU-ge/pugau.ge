@@ -3,7 +3,7 @@
 </a>
 <div class="nav-row">
         <nav class="main-nav" aria-label="{{ i18n "navMain" }}">
-                <ul class="main-nav-ul">
+                <ul class="main-nav-ul" role="list">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main.ByWeight }}
                         <li><a class="navlink" href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
@@ -12,7 +12,7 @@
         </nav>
         {{ if .IsTranslated }}
         <nav aria-label="{{ i18n "navLanguage" }}">
-                <ul class="lang-picker">
+                <ul class="lang-picker" role="list">
                         {{ range .AllTranslations }}
                         <li>
                                 {{ if eq .Language.Lang site.Language.Lang }}
