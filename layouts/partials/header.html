@@ -14,8 +14,20 @@
         {{ if .IsTranslated }}
         <nav aria-label="{{ i18n "navLanguage" }}">
                 <ul class="lang-picker">
-                        {{ range .Translations }}
-                        <li><a class="lang-btn" href="{{ .RelPermalink }}">{{ .Language.Label }}</a></li>
+                        {{ range .AllTranslations }}
+                        <li>
+                                {{ if eq .Language.Lang site.Language.Lang }}
+                                <span class="lang-btn" lang="{{ .Language.Lang }}" aria-current="true">
+                                        <span aria-hidden="true">{{ .Site.Params.shortLabel }}</span>
+                                        <span class="visually-hidden">{{ .Language.Label }}</span>
+                                </span>
+                                {{ else }}
+                                <a class="lang-btn" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" rel="alternate">
+                                        <span aria-hidden="true">{{ .Site.Params.shortLabel }}</span>
+                                        <span class="visually-hidden">{{ .Language.Label }}</span>
+                                </a>
+                                {{ end }}
+                        </li>
                         {{ end }}
                 </ul>
         </nav>
