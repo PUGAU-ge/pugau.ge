@@ -12,6 +12,9 @@
 {{ end }}
 {{ end }}
 
+<link rel="preload" href="/fonts/CourierPrime-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/geo_courier.woff2" as="font" type="font/woff2" crossorigin>
+
 {{ with resources.Get "css/style.css" }}
   {{ $css := . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />

@@ -86,22 +86,50 @@ ul {
 
 /* custom */
 
+
 @font-face {
-        font-family: 'Courier Prime';
-        src: url('/fonts/CourierPrime-Regular.ttf');
-        font-weight: normal;
+        font-family: "Courier Prime";
+        src: url("/fonts/CourierPrime-Regular.woff2") format("woff2"),
+             url("/fonts/CourierPrime-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
 }
 
 @font-face {
-        font-family: 'Courier Prime';
-        src: url('/fonts/CourierPrime-Bold.ttf');
-        font-weight: bold;
+        font-family: "Courier Prime";
+        src: url("/fonts/CourierPrime-Bold.woff2") format("woff2"),
+             url("/fonts/CourierPrime-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
 }
 
 @font-face {
-        font-family: 'Geo Courier';
-        src: url('/fonts/geo_courier.ttf');
-        font-weight: normal;
+        font-family: "Courier Prime";
+        src: url("/fonts/CourierPrime-Italic.woff2") format("woff2"),
+             url("/fonts/CourierPrime-Italic.ttf") format("truetype");
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+}
+
+@font-face {
+        font-family: "Courier Prime";
+        src: url("/fonts/CourierPrime-BoldItalic.woff2") format("woff2"),
+             url("/fonts/CourierPrime-BoldItalic.ttf") format("truetype");
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+}
+
+@font-face {
+        font-family: "Geo Courier";
+        src: url("/fonts/geo_courier.woff2") format("woff2"),
+             url("/fonts/geo_courier.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
 }
 
 *,
