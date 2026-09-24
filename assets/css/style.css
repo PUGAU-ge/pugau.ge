@@ -194,6 +194,11 @@ a {
         color: black;
 }
 
+.navlink[aria-current="page"] {
+        color: black;
+        text-decoration: none;
+}
+
 .lang-picker {
         display: flex;
         align-items: center;
