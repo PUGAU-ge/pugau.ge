@@ -1,2 +1,9 @@
 [skipToContent]
 other = "შინაარსზე გადასვლა"
+
+[navMain]
+other = "მთავარი"
+[navFooter]
+other = "ქვედა"
+[navLanguage]
+other = "ენა"

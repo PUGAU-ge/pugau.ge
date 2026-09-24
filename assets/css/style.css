@@ -166,13 +166,20 @@ a {
         font-weight: normal;
 }
 
-.main-nav {
+.nav-row {
         display: flex;
         align-items: center;
         justify-content: space-between;
 }
 
 .main-nav-ul {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        list-style: none;
+}
+
+.footer-nav-ul {
         display: flex;
         align-items: center;
         gap: 1.5rem;
@@ -259,7 +266,7 @@ h1, h2 {
                 padding-block: 2rem;
         }
 
-        .main-nav {
+        .nav-row {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 3rem;

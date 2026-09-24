@@ -1,19 +1,23 @@
 <a class="logo" href="{{ site.Home.RelPermalink }}">
         {{ .Site.Params.logoText }}
 </a>
-<nav class="main-nav">
-        <ul class="main-nav-ul">
-                {{ $currentPage := . }}
-                {{ range .Site.Menus.main.ByWeight }}
-                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}navlink-active{{ end }}"><a class="navlink"
-                                href="{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-        </ul>
+<div class="nav-row">
+        <nav class="main-nav" aria-label="{{ i18n "navMain" }}">
+                <ul class="main-nav-ul">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main.ByWeight }}
+                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}navlink-active{{ end }}"><a class="navlink"
+                                        href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                </ul>
+        </nav>
         {{ if .IsTranslated }}
-        <ul class="lang-picker">
-                {{ range .Translations }}
-                <li><a class="lang-btn" href="{{ .RelPermalink }}">{{ .Language.Label }}</a></li>
-                {{ end }}
-        </ul>
+        <nav aria-label="{{ i18n "navLanguage" }}">
+                <ul class="lang-picker">
+                        {{ range .Translations }}
+                        <li><a class="lang-btn" href="{{ .RelPermalink }}">{{ .Language.Label }}</a></li>
+                        {{ end }}
+                </ul>
+        </nav>
         {{ end }}
-</nav>
+</div>

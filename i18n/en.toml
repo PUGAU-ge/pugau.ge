@@ -1,2 +1,9 @@
 [skipToContent]
 other = "Skip to content"
+
+[navMain]
+other = "Main"
+[navFooter]
+other = "Footer"
+[navLanguage]
+other = "Language"
