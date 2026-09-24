@@ -29,7 +29,7 @@ enableMissingTranslationPlaceholders = true
           description = 'Professional union of Georgian architects and urbanists.'
 
           [[languages.en.menus.main]]
-            name = "Manifesto"
+            name = "Main"
             pageref = "/"
             weight = 2
 #          [[languages.en.menus.main]]
@@ -65,7 +65,7 @@ enableMissingTranslationPlaceholders = true
           description = 'საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი.'
 
           [[languages.ka.menus.main]]
-            name = "მანიფესტი"
+            name = "მთავარი"
             pageref = "/"
             weight = 2
 #          [[languages.ka.menus.main]]
