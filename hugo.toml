@@ -3,6 +3,7 @@ title = 'Professional Union of Georgian Architects and Urbanists'
 
 defaultContentLanguage = "ka"
 defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
 
 [caches]
   [caches.images]
