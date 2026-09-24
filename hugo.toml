@@ -22,7 +22,7 @@ enableMissingTranslationPlaceholders = true
         label = "English"
         weight = 2
         title = "PUGAU - Professional Union of Georgian Architects and Urbanists"
-        locale = 'en-us'
+        locale = 'en-US'
     [languages.en.params]
           shortLabel = "Eng"
           logoText = "Professional Union of Georgian Architects and Urbanists"
@@ -57,7 +57,7 @@ enableMissingTranslationPlaceholders = true
         label = "ქართული"
         weight = 1
         title = "PUGAU - საქართველოს არქიტექტორთა და ურბანისტთა პროფესიული კავშირი"
-        locale = 'ka'
+        locale = 'ka-GE'
 
     [languages.ka.params]
           shortLabel = "ქარ"

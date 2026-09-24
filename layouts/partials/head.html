@@ -1,7 +1,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
-{{ $desc := .Description | default (.Summary | plainify) | default site.Params.description }}
+{{ $desc := .Description | default (.Summary | plainify | truncate 160) | default site.Params.description }}
 {{ with $desc }}<meta name="description" content="{{ . }}">{{ end }}
 
 <link rel="canonical" href="{{ .Permalink }}">
