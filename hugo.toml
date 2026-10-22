@@ -46,7 +46,7 @@ enableMissingTranslationPlaceholders = true
 #            weight = 4
           [[languages.en.menus.main]]
             name = "Contact"
-            url = "mailto:pugaugeo@gmail.com"
+            pageref = "/contact"
             weight = 5
           [[languages.en.menus.main]]
             name = "Join Us"
@@ -82,7 +82,7 @@ enableMissingTranslationPlaceholders = true
 #            weight = 4
           [[languages.ka.menus.main]]
             name = "კონტაქტი"
-            url = "mailto:pugaugeo@gmail.com"
+            pageref = "/contact"
             weight = 5
           [[languages.ka.menus.main]]
             name = "შემოგვიერთდი"
