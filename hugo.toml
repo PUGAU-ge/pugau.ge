@@ -45,6 +45,10 @@ enableMissingTranslationPlaceholders = true
 #            pageref = "/articles/"
 #            weight = 4
           [[languages.en.menus.main]]
+            name = "CoC"
+            pageref = "/coc"
+            weight = 4
+          [[languages.en.menus.main]]
             name = "Contact"
             pageref = "/contact"
             weight = 5
@@ -81,12 +85,16 @@ enableMissingTranslationPlaceholders = true
 #            pageref = "/articles/"
 #            weight = 4
           [[languages.ka.menus.main]]
+            name = "წესდება"
+            pageref = "/coc"
+            weight = 4
+          [[languages.ka.menus.main]]
             name = "კონტაქტი"
             pageref = "/contact"
-            weight = 5
+            weight = 6
           [[languages.ka.menus.main]]
             name = "შემოგვიერთდი"
             url = "https://docs.google.com/forms/d/e/1FAIpQLSemDONVNK_Kp2iLulc3Q1XuO7idMoXc6qtCrJFX-Z0ociS-hg/viewform"
-            weight = 6
+            weight = 7
 
 
