@@ -1,6 +1,5 @@
 +++
 title = 'წესდება'
-draft = true
 +++
 
-Code of Conduct in Georgian will go here.
+ბმული: [წესდება](https://drive.google.com/file/d/1SlYN077nncEe056UJgfsqPr0OXWq_qHJ/view?usp=sharing)
