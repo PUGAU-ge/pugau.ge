@@ -2,7 +2,7 @@
 title = 'წესდება'
 +++
 
-ბმული: [PDF](https://drive.google.com/file/d/1SlYN077nncEe056UJgfsqPr0OXWq_qHJ/view?usp=sharing)
+[PDF ვერსია](https://drive.google.com/file/d/1SlYN077nncEe056UJgfsqPr0OXWq_qHJ/view?usp=sharing)
 
 ## 1. ზოგადი დებულებები
 
