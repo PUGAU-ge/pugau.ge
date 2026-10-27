@@ -2,4 +2,6 @@
 title = 'კონტაქტი'
 +++
 
-ელ. ფოსტა: {{< email >}}
+დაგვიკავშირდით: 
+{{< email >}}
+[@p.u.g.a.u](https://www.instagram.com/p.u.g.a.u/)
